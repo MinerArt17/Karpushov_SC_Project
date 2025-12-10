@@ -1,7 +1,22 @@
-# Link to Google Colab Jupyter Notebook:  
+# Ссылка на Google Colab Jupyter Notebook:  
 https://colab.research.google.com/drive/1g4UGAvrVVPb5Lenry7Ssxn77pyHNtNy9?usp=sharing
 
 # Инструкция по навигации и запуску
+
+## Общие инструкции
 1) **Устанавливаем необходимые пакеты**
 2) **Скачиваем нужный набор данных** (для каждого раздела или набора данных нужно отключиться и перезапустить среду выполнения, чтобы освободить оперативную память)
 3) **Выполняем ячейки в разделе и получаем результат**
+
+## Раздел "Поиск маркеров"
+1) Запускаем ячейки в разделе "One batch" датасета Individual Single-Cell RNA-seq PBMC Data from Lee et al.
+2) Запускаем ячейки в разделе "Поиск маркеров"  
+3) Дополнительно: корректируем и запускаем ячейки в разделе "Graphs/Поиск маркеров" (данные (*score, p_adj*) заполняются вручную)
+
+## Раздел "Сравнение условий"
+### Датасет Individual Single-Cell RNA-seq PBMC Data from Lee et al.
+1) Запускаем ячейки в разделе
+
+### Датасет progressive_plasticity_during_crc_metastasis_untreated_epithelial
+1) Запускаем ячейки в соответсвующем разделе в "Препроцессинг данных" (можно до ячейки, где проводится трансформация данных *adata_ct* (Count transformation)
+2) Запускаем ячейки в разделе
